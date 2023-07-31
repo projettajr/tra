@@ -1,11 +1,10 @@
 import requests
 from time import sleep
 import json
-import gspread
 
-gc = gspread.service_account(filename='spry-sequence-357517-d1ca6ab92278.json')
-sh = gc.open_by_key('1NyJzWVc_HXPoMq6UOMml76x53Z1OkjM9qa-IUdY2C64')
-worksheet = sh.get_worksheet(1)
+#gc = gspread.service_account(filename='spry-sequence-357517-d1ca6ab92278.json')
+#sh = gc.open_by_key('1NyJzWVc_HXPoMq6UOMml76x53Z1OkjM9qa-IUdY2C64')
+#worksheet = sh.get_worksheet(1)
 
 token = '2110681679:AAGNXSVnVJpc-bgYDIDlM8ckc-l_LIVmZSk'
 url_base = f'https://api.telegram.org/bot{token}/'
