@@ -25,8 +25,10 @@ update_id = None
 
 while 1 == 1:
     atualizacao = obter_novas_mensagens(update_id)
-            
+    try:        
     dados = atualizacao["result"]
+    except:
+        continue
     if dados:
         for dado in dados:
             
