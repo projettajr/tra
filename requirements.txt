@@ -3,6 +3,7 @@ attrs==21.4.0
 cachetools==5.2.0
 google-api-core==2.8.2
 google-api-python-client==2.55.0
+gunicorn==19.7.1
 Pillow==9.2.0
 playwright==1.25.2
 protobuf==4.21.3
